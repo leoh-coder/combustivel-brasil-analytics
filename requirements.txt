@@ -1,0 +1,41 @@
+# ──────────────────────────────────────────────
+# Combustível Brasil Analytics — dependências
+# Gerado em 2026-04-04 | Python 3.13
+# ──────────────────────────────────────────────
+
+# Core
+pandas==2.3.0
+numpy==2.4.2
+duckdb==1.5.1
+pyarrow==20.0.0
+joblib==1.5.3
+
+# AWS (opcional — upload S3)
+boto3==1.42.81
+
+# Web Scraping & APIs
+beautifulsoup4==4.13.4
+requests==2.32.3
+lxml==6.0.0
+
+# Visualização
+matplotlib==3.10.3
+seaborn==0.13.2
+plotly==6.2.0
+
+# Machine Learning
+scikit-learn==1.8.0
+statsmodels>=0.14.0
+
+# Dashboard
+streamlit==1.55.0
+
+# Utilitários
+python-dotenv==1.0.1
+tqdm==4.67.1
+openpyxl==3.1.5
+xlrd==2.0.2
+
+# Testes & notebooks
+pytest==8.3.5
+nbconvert==7.17.0

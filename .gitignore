@@ -1,0 +1,57 @@
+# Dados (arquivos grandes - não commitar)
+data/raw/
+data/processed/
+data/external/
+*.csv
+*.parquet
+
+# Ambiente virtual
+venv/
+.venv/
+env/
+
+# Variáveis de ambiente
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Claude Code (arquivos internos da IDE)
+.claude/
+
+# Backups e zips temporários
+*.zip
+
+# Testes
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# Temporários locais
+.nbexec_tmp/
+temp_nb_exec/
+pytest-cache-files-*/
+etl_dedup_test_*/
