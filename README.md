@@ -3,7 +3,7 @@
 Projeto de dados end-to-end com dados reais da ANP, cobrindo ingestão, ETL, análise exploratória, modelagem de Machine Learning e dashboard interativo.
 O artefato processado atual consolida **20.484.968 registros** (2004–2025), e o `data/raw` atual contém **44 CSVs semestrais** (2004–2025).
 
-> Projeto de portfólio desenvolvido por **Leonardo H. R. Ferreira** — ADS, Toledo Prudente.
+> Projeto desenvolvido por **Leonardo H. R. Ferreira**
 
 ---
 
@@ -161,5 +161,5 @@ Capturas reais do dashboard estão em `docs/screenshots/`:
 
 ## Autor
 
-**Leonardo H. R. Ferreira** — Análise e Desenvolvimento de Sistemas, Toledo Prudente
+**Leonardo H. R. Ferreira**
 [GitHub](https://github.com/leoh-coder) · [LinkedIn](https://linkedin.com/in/leonardo-henrique-ramos-ferreira-43aa632ba)
