@@ -3,7 +3,7 @@
 Projeto de dados end-to-end com dados reais da ANP, cobrindo ingestão, ETL, análise exploratória, modelagem de Machine Learning e dashboard interativo.
 O artefato processado atual consolida **20.484.968 registros** (2004–2025), e o `data/raw` atual contém **44 CSVs semestrais** (2004–2025).
 
-> Projeto desenvolvido por **Leonardo H. R. Ferreira**
+> Projeto de portfólio desenvolvido por **Leonardo H. R. Ferreira** — ADS, Toledo Prudente.
 
 ---
 
@@ -125,12 +125,15 @@ pytest tests/ -v
 
 ## Sobre os Dados
 
-| Período | Situação |
+| Periodo | Situacao |
 |---------|----------|
-| 2004–2025 | Em `data/raw`, há 44 CSVs semestrais da ANP |
-| 2004–2025 | Parquet principal (`data/processed/combustiveis_brasil.parquet`) com 20.484.968 registros |
+| 2004-2025 | Em `data/raw`, ha 44 CSVs semestrais da ANP |
+| 2004-2025 | Parquet principal (`data/processed/combustiveis_brasil.parquet`) com 20.484.968 registros |
+| 2004-2026* | Em `data/external`, dolar e Brent podem avancar alem de 2025 conforme disponibilidade das fontes |
 
-**Fonte:** [ANP — Agência Nacional do Petróleo](https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/serie-historica-de-precos-de-combustiveis)
+**Fonte:** [ANP - Agencia Nacional do Petroleo](https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/serie-historica-de-precos-de-combustiveis)
+
+\* Esse periodo estendido se aplica apenas aos dados externos, nao aos CSVs da ANP nem ao parquet principal.
 
 ---
 
@@ -150,16 +153,30 @@ Validação com **TimeSeriesSplit** (5 janelas temporais) — sem vazamento de d
 
 ## Screenshots do Dashboard
 
-Capturas reais do dashboard estão em `docs/screenshots/`:
-- `01_visao_geral.png`
-- `02_comparativo.png`
-- `03_presidente_prudente.png`
-- `04_previsao.png`
-- `05_cidades.png`
+As capturas abaixo mostram as principais páginas do dashboard Streamlit.
 
+### Visão Geral Nacional
+
+![Visão Geral Nacional](docs/screenshots/01_visao_geral.png)
+
+### Comparativo por Estado
+
+![Comparativo por Estado](docs/screenshots/02_comparativo.png)
+
+### Presidente Prudente
+
+![Presidente Prudente](docs/screenshots/03_presidente_prudente.png)
+
+### Previsão de Preço
+
+![Previsão de Preço](docs/screenshots/04_previsao.png)
+
+### Comparativo de Cidades
+
+![Comparativo de Cidades](docs/screenshots/05_cidades.png)
 ---
 
 ## Autor
 
-**Leonardo H. R. Ferreira**
+**Leonardo H. R. Ferreira** — Análise e Desenvolvimento de Sistemas, Toledo Prudente
 [GitHub](https://github.com/leoh-coder) · [LinkedIn](https://linkedin.com/in/leonardo-henrique-ramos-ferreira-43aa632ba)
