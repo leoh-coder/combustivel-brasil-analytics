@@ -3,7 +3,7 @@
 Projeto de dados end-to-end com dados reais da ANP, cobrindo ingestão, ETL, análise exploratória, modelagem de Machine Learning e dashboard interativo.
 O artefato processado atual consolida **20.484.968 registros** (2004–2025), e o `data/raw` atual contém **44 CSVs semestrais** (2004–2025).
 
-> Projeto de portfólio desenvolvido por **Leonardo H. R. Ferreira**
+> Projeto de portfólio desenvolvido por **Leonardo Henrique Ramos Ferreira**
 
 ---
 
@@ -178,5 +178,5 @@ As capturas abaixo mostram as principais páginas do dashboard Streamlit.
 
 ## Autor
 
-**Leonardo H. R. Ferreira**
+**Leonardo Henrique Ramos Ferreira**
 [GitHub](https://github.com/leoh-coder) · [LinkedIn](https://linkedin.com/in/leonardo-henrique-ramos-ferreira-43aa632ba)
